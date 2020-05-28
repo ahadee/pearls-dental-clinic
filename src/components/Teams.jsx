@@ -1,6 +1,4 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 function Teams() {
     return (
@@ -21,9 +19,9 @@ function Teams() {
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
                                 </div>
                                 <ul className="social-icons clearfix">
-                                    <li><a href="https://www.facebook.com/"><span className="fa fa-facebook"><FontAwesomeIcon icon={faFacebookF} /></span></a></li>
-                                    <li><a href="https://twitter.com/"><span className="fa fa-twitter"><FontAwesomeIcon icon={faTwitter} /></span></a></li>
-                                    <li><a href="https://www.instagram.com/?hl=en"><span className="fa fa-instagram"><FontAwesomeIcon icon={faInstagram} /></span></a></li>
+                                    <li><a href="https://www.facebook.com/"><span className="fa fa-facebook"></span></a></li>
+                                    <li><a href="https://twitter.com/"><span className="fa fa-twitter"></span></a></li>
+                                    <li><a href="https://www.instagram.com/?hl=en"><span className="fa fa-instagram"></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -35,9 +33,9 @@ function Teams() {
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
                                 </div>
                                 <ul className="social-icons clearfix">
-                                    <li><a href="https://www.facebook.com/"><span className="fa fa-facebook"><FontAwesomeIcon icon={faFacebookF} /></span></a></li>
-                                    <li><a href="https://twitter.com/"><span className="fa fa-twitter"><FontAwesomeIcon icon={faTwitter} /></span></a></li>
-                                    <li><a href="https://www.instagram.com/?hl=en"><span className="fa fa-instagram"><FontAwesomeIcon icon={faInstagram} /></span></a></li>
+                                    <li><a href="https://www.facebook.com/"><span className="fa fa-facebook"></span></a></li>
+                                    <li><a href="https://twitter.com/"><span className="fa fa-twitter"></span></a></li>
+                                    <li><a href="https://www.instagram.com/?hl=en"><span className="fa fa-instagram"></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -49,9 +47,9 @@ function Teams() {
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
                                 </div>
                                 <ul className="social-icons clearfix">
-                                    <li><a href="https://www.facebook.com/"><span className="fa fa-facebook"><FontAwesomeIcon icon={faFacebookF} /></span></a></li>
-                                    <li><a href="https://twitter.com/"><span className="fa fa-twitter"><FontAwesomeIcon icon={faTwitter} /></span></a></li>
-                                    <li><a href="https://www.instagram.com/?hl=en"><span className="fa fa-instagram"><FontAwesomeIcon icon={faInstagram} /></span></a></li>
+                                    <li><a href="https://www.facebook.com/"><span className="fa fa-facebook"></span></a></li>
+                                    <li><a href="https://twitter.com/"><span className="fa fa-twitter"></span></a></li>
+                                    <li><a href="https://www.instagram.com/?hl=en"><span className="fa fa-instagram"></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -63,9 +61,9 @@ function Teams() {
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
                                 </div>
                                 <ul className="social-icons clearfix">
-                                    <li><a href="https://www.facebook.com/"><span className="fa fa-facebook"><FontAwesomeIcon icon={faFacebookF} /></span></a></li>
-                                    <li><a href="https://twitter.com/"><span className="fa fa-twitter"><FontAwesomeIcon icon={faTwitter} /></span></a></li>
-                                    <li><a href="https://www.instagram.com/?hl=en"><span className="fa fa-instagram"><FontAwesomeIcon icon={faInstagram} /></span></a></li>
+                                    <li><a href="https://www.facebook.com/"><span className="fa fa-facebook"></span></a></li>
+                                    <li><a href="https://twitter.com/"><span className="fa fa-twitter"></span></a></li>
+                                    <li><a href="https://www.instagram.com/?hl=en"><span className="fa fa-instagram"></span></a></li>
                                 </ul>
                             </div>
                         </div>
