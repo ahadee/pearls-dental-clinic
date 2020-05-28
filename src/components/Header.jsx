@@ -7,7 +7,7 @@ export default function Header() {
         <div>
             <section className="banner" role="banner">
                 <header id="header">
-                    <div className="header-content clearfix"> <a className="logo" href="index.html"><i className="icon icon-anchor"></i>
+                    <div className="header-content clearfix"> <a className="logo" href="index.html"><i className="icon icon-beaker" style={{padding:"10px"}}></i>
                         Pearls Dental</a>
                         <nav className="navigation" role="navigation">
                             <ul className="primary-nav">
