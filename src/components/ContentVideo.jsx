@@ -21,19 +21,19 @@ function ContentVideo() {
               believable.</p>
                             </div>
                             <div className="col-md-6">
-                                {/* <div className="embed-responsive embed-responsive-16by9"> */}
-                                <div>
-                                    {/* <iframe className="embed-responsive-item" src="https://www.youtube.com/watch?v=n2s86NcQtCc" title="myVideo"
+                                <div className="embed-responsive embed-responsive-16by9">
+                                {/* <div> */}
+                                    <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/NZqdFNWmYCk" title="myVideo"
                                         allowFullScreen="" http-equiv="Content-Security-Policy">
-                                    </iframe> */}
-                                    <Iframe url="https://www.youtube.com/embed/NZqdFNWmYCk"
+                                    </iframe>
+                                    {/* <Iframe url="https://www.youtube.com/embed/NZqdFNWmYCk"
                                         width="600px"
                                         height="300px"
                                         id="myId"
                                         className="myClassname"
                                         display="initial"
                                         position="relative"
-                                        allowFullScreen />
+                                        allowFullScreen /> */}
                                 </div>
                             </div>
                         </div>

@@ -43,26 +43,28 @@ function Contact() {
                                 }}
                                 onSubmit={(values, { setSubmitting }) => {
                                     // setTimeout(() => {
-                                        alert(JSON.stringify('pesan di proses ke whatsapp'));
+                                        alert(JSON.stringify("Pesan anda akan di proses ke Whatsapp"));
                                         setSubmitting(false);
                                     // }, 400);
                                     const send = () => {
-                                        const urlMobile = 'https://api.whatsapp.com/send?phone=+62895334199749&text='
-                                        const urlWeb = 'https://web.whatsapp.com/send?phone=+62895334199749&text='
                                         let message = `Nama: ${values.name} \r\n`
                                         message += `Email: ${values.email} \r\n`
                                         message += `Phone: ${values.phone} \r\n`
                                         message += `Pesan: ${values.comments}\r\n`
                                         message = window.encodeURIComponent(message)
                                         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                                            window.open = (urlMobile+message)
+                                            // window.location = 'https://api.whatsapp.com/send?phone=+62895334199749&text='+message
+                                            window.open('https://api.whatsapp.com/send?phone=+62895334199749&text='+message, '_blank')
+                                            
                                         }
                                         else {
-                                            window.open = (urlWeb+message)
+                                            // window.location = 'https://web.whatsapp.com/send?phone=+62895334199749&text='+message
+                                            window.open('https://web.whatsapp.com/send?phone=+62895334199749&text='+message, '_blank')
                                         }
+
                                     }
 
-                                    send()
+                                    send ()
                                 }}
                             >
                                 {({
