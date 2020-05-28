@@ -54,12 +54,12 @@ function Contact() {
                                         message = window.encodeURIComponent(message)
                                         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
                                             // window.location = 'https://api.whatsapp.com/send?phone=+62895334199749&text='+message
-                                            window.open('https://api.whatsapp.com/send?phone=+62895334199749&text='+message, '_blank')
+                                            window.open('https://api.whatsapp.com/send?phone=+628113640817&text='+message, '_blank')
                                             
                                         }
                                         else {
                                             // window.location = 'https://web.whatsapp.com/send?phone=+62895334199749&text='+message
-                                            window.open('https://web.whatsapp.com/send?phone=+62895334199749&text='+message, '_blank')
+                                            window.open('https://web.whatsapp.com/send?phone=+628113640817&text='+message, '_blank')
                                         }
 
                                     }
