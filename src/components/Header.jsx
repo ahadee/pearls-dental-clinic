@@ -39,7 +39,7 @@ export default function Header() {
                                 Senyuman Anda 
                             </h3> <br />
                             <p data-pos="['75%', '110%', '75%', '12%']" data-duration="700" data-effect="move">
-                                Kepuasan Kami
+                                Adalah Kepuasan Kami
                             </p>
                         </div>
 
